@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def uppercase(str):
+def uppercase("Holberton School, 98 Battery street"):
     for i in str:
         if ord(i) >= ord('a') and ord(i) <= ord('z'):
             i = chr(ord(i) - 32)
